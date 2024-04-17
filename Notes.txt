@@ -1,0 +1,23 @@
+Running dinner:
+Form tuples of 3 teams per course (3 courses)
+A team should not meet any other team a second time (for a different course).
+
+
+Preferably: Have smart routes so people don't have to travel that far. 
+Even better: Have people travel towards location of after-party.
+Fallback: Form several clusters based on distance so everybody dosn't have to travel that far.
+Fallback fallback: group without considering location
+
+Would be nice on top: favor 3-tupeling where people with similar food-allergies and -prefernces are grouped together
+
+if clusters are formed. The number of teams has to be divisable by 3 and have 9 or more temas
+	-Total number of teams needs to be divisable by 3 to form 3-tuples of teams
+	-9 or more teams are needed to split them into enoguh unique 3-tuples so 3 sets of 3-tuples can be formed (pair of teams are together in 1 or less 3-tuples)
+
+
+Ideas: 
+- Use geopy to convert adresses to latitude longitude
+- cluster things in same direction from after-party-location, then form 3-tuples in cluster and order by distance from after-party-location (appetizer at furthest location, desert at closest location)
+-- measure of direction could be similarity of vector from after-party-location to location or distance to metro lines 
+
+-could use constraint programming to find 3-tuples (could even maximize number of tuples with same alergies)
