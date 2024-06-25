@@ -11,5 +11,5 @@ Altogether a nice, diverse 3-course menu is created 🍳
 You meet 12 people (=2x2x3: 2 teams of 2 people for 3 courses)  
 It's a lot of fun 😁👌
 
-Mnually matching the teams as an organizerr is quite tedious, so I want to do I automatically
+Manually matching the teams as an organizer is quite tedious, so I want to do I automatically
 
